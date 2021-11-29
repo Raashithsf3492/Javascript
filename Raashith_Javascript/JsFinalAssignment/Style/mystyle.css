@@ -1,0 +1,109 @@
+#father{
+    float: right;
+    margin-right: 400px;
+    margin-top: -90px;
+
+}
+
+#invalid{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid1{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid2{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid3{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid4{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid5{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid6{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid7{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid8{
+    color:red;
+    visibility: hidden;
+}
+
+#invalid9{
+    color:red;
+    visibility: hidden;
+}
+
+#Current{
+    padding: 10px 10px;
+   
+}
+
+
+#Current1{
+    padding: 10px 10px;
+    
+}
+
+#Current2{
+    padding: 10px 10px;
+   
+}
+
+#Current3{
+    padding: 10px 10px;
+}
+
+#Current4{
+    padding: 10px 10px;
+}
+
+#Permanent1{
+    padding: 10px 10px;
+}
+
+#Permanent2{
+    padding: 10px 10px;
+}
+
+#Permanent3{
+    padding: 10px 10px;
+}
+
+#Permanent4{
+    padding: 10px 10px;
+}
+
+#Permanent5{
+    padding: 10px 10px;
+}
+
+#pic{
+    padding :10px 10px;
+}
+
+button{
+    background-color: rgb(87, 87, 255);
+    color:white;
+}

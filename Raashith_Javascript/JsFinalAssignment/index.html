@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>Javacript Final Assignment</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style/mystyle.css">
+        <script type="text/javascript" src="Script/myscript.js"></script>
+    </head>
+    <body>
+        <h2>Personal Information</h2>
+        <div>
+            <h5>Name as per ID <sup>*</sup></h5>
+            <input type="text"  id="name1"  placeholder="Name">
+            <label for="invalid" id="invalid" >Invalid</label>
+        </div>
+
+        <div id="father">
+            <h5>Father's Name<sup>*</sup></h5>
+            <input type="text" id="Fathername"  placeholder="Father Name">
+            <label for="invalid" id="invalid1" >Invalid</label>
+        </div>
+
+        <div id="Email">
+            <h5>Email<sup>*</sup></h5>
+            <input type="email" id="email"   placeholder="Email id">
+            <label for="invalid" id="invalid2" >Invalid</label>
+        </div>
+
+        <div id="date">
+            <h5>date<sup>*</sup></h5>
+            <input type="text" id="date1"   placeholder="DD-MM-YYY">
+            <label for="invalid" id="invalid3" >Invalid</label>
+
+           
+        </div>
+
+        <div>
+            <h5>Mobile Number<sup>*</sup></h5>
+            <input type="tel" id="mobile">
+            <label for="invalid" id="invalid4" >Invalid</label>
+        </div>
+ 
+        <div >
+            
+                <h5>Current Address<sup>*</sup></h5>
+            <div  id ="Current">
+                <input type="text" id="address1" placeholder="Address line 1">
+                
+            </div>
+    
+            <div id = "Current1">
+                
+                <input type="text" id="address2" placeholder="Address line 2">
+               
+            </div>
+    
+            <div id = "Current2">
+                <input type="text" id="city1" placeholder="City">
+                
+            </div>
+    
+            <div id = "Current3">
+                <select name="" id="state1">
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karanataka">Karanataka</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+            </div>
+
+            <div id="Current4">
+                
+                <input type="text" id="code1" placeholder="Zip Code">
+               
+            </div>
+    
+        </div>
+
+        <div class="Permanent">
+
+
+            
+                <h5>Permanent Address<sup>*</sup></h5>
+
+                <input type="checkbox" id="same"><span>Same as Current Address</span>
+            <div id="Permanent1">
+                <input type="text" id="address3" placeholder="Address line 1">
+                <label for="invalid" id="invalid5" >Invalid</label>
+            </div>
+    
+            <div id="Permanent2">
+                
+                <input type="text" id="address4" placeholder="Address line 2">
+                <label for="invalid" id="invalid6" >Invalid</label>
+            </div>
+    
+            <div id="Permanent3">
+                <input type="text" id="city2" placeholder="City">
+                <label for="invalid" id="invalid7" >Invalid</label>
+            </div>
+    
+            <div id="Permanent4">
+                <select name="" id="state2">
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karanataka">Karanataka</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+            </div>
+
+            <div id="Permanent5">
+                
+                <input type="text" id="code2" placeholder="Zip Code">
+                <label for="invalid" id="invalid8" >Invalid</label>
+            </div>
+    
+        </div>
+
+        <div id = "pic">
+            <h5> Upload Profile photo</h5>
+            <input type="file" value="Upload photo" id="pic" accept = "acceptable/.jpg,.png,.svg">
+            <label for="invalid" id="invalid9" >Invalid</label>
+        </div>
+       
+        <button onclick="Validate()" type="button">Submit</button>
+    </body>
+</html>
